@@ -1,0 +1,8 @@
+apiVersion: opa.stackable.tech/v1alpha1
+kind: OpaCluster
+metadata:
+  name: opa-cluster
+spec:
+  image:
+    productVersion: {{ .Values.image.productVersion }}
+    stackableVersion: {{ .Values.image.stackableVersion }}
