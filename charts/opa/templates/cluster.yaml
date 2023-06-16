@@ -6,3 +6,9 @@ spec:
   image:
     productVersion: {{ .Values.image.productVersion }}
     stackableVersion: {{ .Values.image.stackableVersion }}
+  servers:
+    roleGroups:
+      default:
+        selector:
+          matchLabels:
+            kubernetes.io/os: linux
