@@ -1,7 +1,7 @@
 
 image:
   repository: openpolicyagent/opa
-  tag: 0.52.0
+  tag: 0.54.0
   pullPolicy: IfNotPresent
   pullSecret: ""
   uid: 1001
