@@ -1,0 +1,6 @@
+dependencies:
+- name: opa-operator
+  repository: https://repo.stackable.tech/repository/helm-stable/
+  version: 23.4.1
+digest: sha256:829a84b317a0b101b80681daf1100c70fc9155911900c02b181e7d082a22ad37
+generated: "2023-08-18T13:08:48.920281+01:00"
