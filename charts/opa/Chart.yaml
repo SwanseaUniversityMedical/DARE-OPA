@@ -1,10 +1,10 @@
 apiVersion: v2
-appVersion: 1.1.0
+appVersion: 1.1.1
+dependencies:
+- name: opa-operator
+  repository: https://repo.stackable.tech/repository/helm-stable/
+  version: 23.7.0
 description: Helm chart for deploying DARE OPA.
 name: opa
 type: application
-dependencies:
-  - name: opa-operator
-    version: 23.7.0
-    repository: https://repo.stackable.tech/repository/helm-stable/
-version: 1.1.0
+version: 1.1.1
