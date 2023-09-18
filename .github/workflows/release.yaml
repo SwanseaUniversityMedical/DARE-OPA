@@ -58,7 +58,7 @@ jobs:
       github-app-id: ${{ vars.APP_ID }}
       slack-channel: ${{ vars.SLACK_CHANNEL }}
       slack-thread: ${{ needs.slack.outputs.thread }}
-      chart: charts/**
+      chart: charts/opa
       test-command: |
         helm template $CHART --values charts/opa/values.yaml
     secrets:
