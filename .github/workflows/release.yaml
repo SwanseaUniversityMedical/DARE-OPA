@@ -2,11 +2,8 @@ name: Build and Release
 
 on:
   push:
-    paths:
-      - '.github/workflows/release.yaml'
-      - 'charts/**'
     branches:
-      - '**'
+      - 'main'
 
 env:
   HARBOR_REGISTRY: ${{ vars.HARBOR_REGISTRY }}
