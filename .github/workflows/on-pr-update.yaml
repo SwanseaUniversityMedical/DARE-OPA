@@ -43,7 +43,7 @@ jobs:
     uses: SwanseaUniversityMedical/workflows/.github/workflows/on-pr-update-chart.yaml@v2.5.0
     with:
       job-name: chart
-      chart: charts/**
+      chart: charts/opa
       chart-registry: ${{ vars.HARBOR_REGISTRY }}
       chart-registry-user: ${{ vars.HARBOR_USER }}
       chart-registry-project: ${{ vars.HARBOR_PROJECT }}
