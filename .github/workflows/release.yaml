@@ -30,7 +30,7 @@ jobs:
       filters: |
         chart:
           - './.github/workflows/release.yaml'
-          - 'charts/**'
+          - 'charts/opa'
 
     secrets:
       slack-token: ${{ secrets.SLACK_TOKEN }}
