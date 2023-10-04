@@ -33,7 +33,7 @@ jobs:
       github-app-id: ${{ vars.APP_ID }}
       filters: |
         chart:
-          - './.github/workflows/release.yaml'
+          - './.github/workflows/on-release.yaml'
           - 'charts/opa/**'
 
     secrets:
