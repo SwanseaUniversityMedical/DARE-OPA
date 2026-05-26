@@ -35,7 +35,7 @@ jobs:
   helm-chart:
     uses: SwanseaUniversityMedical/workflows/.github/workflows/pr-and-release-chart.yaml@v4.0.0-charts
     with:
-      job-name: helm-chart
+      job-name: DARE-OPA-helm-chart
       registry: ${{ vars.HARBOR_REGISTRY }}
       registry-user: ${{ vars.HARBOR_USER }}
       registry-project: ${{ vars.HARBOR_PROJECT }}
